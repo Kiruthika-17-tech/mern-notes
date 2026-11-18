@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns:auto auto auto;
+                column-gap:50px;
+                background-color: rgb(136, 188, 240);
+                padding: 10px;
+            }
+            .container1{
+                display: grid;
+                grid-template-columns:auto auto auto;
+                row-gap:50px;
+                background-color: rgb(136, 188, 240);
+                padding: 10px;
+            }
+            .container2{
+                display: grid;
+                grid-template-columns:auto auto auto;
+                column-gap:50px;
+                row-gap:50px;
+                background-color: rgb(136, 188, 240);
+                padding: 10px;
+            }
+            .container div{
+                background-color: #f1f1f1;
+                border: 1px solid black;
+                padding: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+            .container1 div{
+                 background-color: #f1f1f1;
+                border: 1px solid black;
+                padding: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+            .container2 div{
+                background-color: #f1f1f1;
+                border: 1px solid black;
+                padding: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Grid layout</h1>
+        <p> A Grid Layout with 5 containers-column gap</p>
+        <div class="container"> 
+        <div>1</div>
+        <div>2</div>
+        <div>3</div> 
+        <div>4</div>
+        <div>5</div>
+    </div>
+        <p> A Grid Layout with 6 containers-row gap</p>
+        <div class="container1"> 
+        <div>1</div>
+        <div>2</div>
+        <div>3</div> 
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <p> A Grid Layout with 6 containers-both row and column gap</p>
+        <div class="container2"> 
+        <div>1</div>
+        <div>2</div>
+        <div>3</div> 
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    </body>
+</html>
